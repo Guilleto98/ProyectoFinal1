@@ -39,8 +39,14 @@ header {
   background: #3A3A49;
   width: 100%;
   height: 1010px;
-  grid-template-areas: 'oferta' 'parrafo' 'img' 'envios';
-  grid-template-rows: 200px 300px 310px 200px;
+  grid-template-areas: 'oferta'
+ 'parrafo'
+ 'img'
+ 'envios';
+  grid-template-rows: 200px
+ 300px
+ 310px
+ 200px;
   justify-content: space-around; }
   .mainIndex .oferta {
     display: flex;
@@ -132,8 +138,12 @@ footer {
 @media (min-width: 900px) {
   .mainIndex {
     height: 810px;
-    grid-template-areas: 'oferta oferta' 'parrafo img' 'envios envios';
-    grid-template-rows: 200px 300px 310px; }
+    grid-template-areas: 'oferta oferta'
+ 'parrafo img'
+ 'envios envios';
+    grid-template-rows: 200px
+ 300px
+ 310px; }
   .parrafo {
     align-items: center; } }
 
@@ -147,8 +157,20 @@ footer {
   background: #3A3A49;
   width: 100%;
   height: 1400px;
-  grid-template-areas: 'codDesc' 'mates' 'bombillas' 'materas' 'cuchillos' 'termos' 'outfits';
-  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-areas: 'codDesc'
+ 'mates'
+ 'bombillas'
+ 'materas'
+ 'cuchillos'
+ 'termos'
+ 'outfits';
+  grid-template-rows: 200px
+ 200px
+ 200px
+ 200px
+ 200px
+ 200px
+ 200px;
   justify-items: center;
   align-items: center; }
 
@@ -204,13 +226,22 @@ span p {
 @media (min-width: 600px) {
   .mainCatalogo {
     height: 800px;
-    grid-template-areas: 'codDesc  codDesc' 'mates    bombillas' 'materas  cuchillos' 'termos   outfits';
-    grid-template-rows: 200px 200px 200px 200px; } }
+    grid-template-areas: 'codDesc  codDesc'
+ 'mates    bombillas'
+ 'materas  cuchillos'
+ 'termos   outfits';
+    grid-template-rows: 200px
+ 200px
+ 200px
+ 200px; } }
 
 @media (min-width: 900px) {
   .mainCatalogo {
     height: 1200px;
-    grid-template-rows: 200px 300px 300px 300px; }
+    grid-template-rows: 200px
+ 300px
+ 300px
+ 300px; }
   .mainCatalogo span {
     width: 250px; }
   .mainCatalogo span img {
@@ -219,7 +250,10 @@ span p {
 @media (min-width: 900px) {
   .mainCatalogo {
     height: 1650px;
-    grid-template-rows: 200px 400px 400px 400px; }
+    grid-template-rows: 200px
+ 400px
+ 400px
+ 400px; }
   .mainCatalogo span {
     width: 280px; }
   .mainCatalogo span img {
@@ -233,8 +267,18 @@ span p {
   background: #3A3A49;
   width: 100%;
   height: 1900px;
-  grid-template-areas: 'trabajo1' 'trabajo2' 'trabajo3'  'trabajo4' 'trabajo5' 'trabajo6';
-  grid-template-rows: 300px  300px 300px 300px 300px 300px;
+  grid-template-areas: 'trabajo1'
+ 'trabajo2'
+ 'trabajo3' 
+ 'trabajo4'
+ 'trabajo5'
+ 'trabajo6';
+  grid-template-rows: 300px 
+ 300px
+ 300px
+ 300px
+ 300px
+ 300px;
   grid-template-columns: 300px;
   justify-content: space-evenly;
   align-content: space-evenly;
@@ -252,8 +296,10 @@ span p {
   width: 100%;
   height: 700px;
   background-color: #3A3A49;
-  grid-template-areas: 'img1' 'parrafo';
-  grid-template-rows: 400px  200px;
+  grid-template-areas: 'img1'
+ 'parrafo';
+  grid-template-rows: 400px 
+ 200px;
   grid-template-columns: 400px;
   justify-items: center;
   align-items: center;
@@ -362,9 +408,13 @@ footer {
     justify-content: center; }
   .maintrabajos {
     height: 800px;
-    grid-template-areas: 'img1 img2' 'img3 img4' 'img5 img6';
+    grid-template-areas: 'img1 img2'
+ 'img3 img4'
+ 'img5 img6';
     grid-template-columns: 250px 250px;
-    grid-template-rows: 250px 250px 250px; } }
+    grid-template-rows: 250px
+ 250px
+ 250px; } }
 
 @media (min-width: 1100px) {
   header {
